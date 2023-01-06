@@ -1,0 +1,15 @@
+:root{
+    --main-color: #0a3871;
+    --secondary-color: #e5e5e5;
+    --tertiary-color: #ffffff
+    --main-font-color: #343a40;
+    --secondary-font-color: #495057;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+
+}
