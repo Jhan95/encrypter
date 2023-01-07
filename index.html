@@ -15,14 +15,16 @@
 </head>
 <body>
     <header>
-        <figure>
+        <figure class="icon-container">
             <img src="./assets/icons/Vector.png" alt="Encrypter Logo">
         </figure>
     </header>
-    <section>
-
-        <input type="text-area" value="Ingrese el texto aqui">
-        <p>Solo letras minúsculas y sin acentos</p>
+    <section class="text-container">
+        <div class="textarea-container">
+            <label for="textarea">Ingrese el texto aquí</label>
+            <textarea name="" id="texarea" cols="30" rows="10"></textarea>
+        </div>
+        <p><span></span> Solo letras minúsculas y sin acentos</p>
         <input type="submit" value="Encriptar">
         <input type="submit" value="Desencriptar">
     </section>

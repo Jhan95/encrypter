@@ -1,15 +1,69 @@
 :root{
     --main-color: #0a3871;
     --secondary-color: #e5e5e5;
-    --tertiary-color: #ffffff
+    --tertiary-color: #ffffff;
     --main-font-color: #343a40;
     --secondary-font-color: #495057;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
     box-sizing: border-box;
     margin: 0;
-    font-size: 62.5%;
-    font-family: 'Inter', sans-serif;
+
+
+}
+
+.icon-container{
+    width: 32px;
+    height: 48px;
+    padding: 24px 16px;
+    margin: 0;
+}
+
+.textarea-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea-container label{
+    width: 90%;
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.textarea{
+    width: 90%;
+    height: 320px;
+    font-size: 3.2rem;
+    resize: none;
+    color: var(--main-color);
+    margin-bottom: 8px;
+}
+
+.text-container p{
+    width: 90%;
+    position: relative;
+    padding-left: 16px;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.text-container p span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("/one-oracle/encrypter-project/assets/icons/Vectoralert-icon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
