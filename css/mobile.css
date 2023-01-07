@@ -11,8 +11,7 @@ body{
     margin: 0;
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
-
-
+    background-color: var(--secondary-color);
 }
 
 .icon-container{
@@ -23,19 +22,12 @@ body{
 }
 
 .textarea-container {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.textarea-container label{
-    width: 90%;
-    font-size: 3.2rem;
-    font-weight: 400;
-    color: var(--main-color);
-}
 
 .textarea-container textarea{
     resize: none;
@@ -43,11 +35,12 @@ body{
     height: 240px;
     font-size: 1.6rem;
     font-weight: 400;
-
     margin-bottom: 8px;
     padding: 8px 0;
     color: var(--main-color);
-
+    background-color: var(--secondary-color);
+    outline: none;
+    border: none;
 }
 
 
@@ -73,7 +66,6 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .buttons-container{
@@ -101,5 +93,36 @@ body{
 .buttons-container .decrypt{
     background-color: var(--tertiary-color);
     color: var(--main-color);
+}
 
+.answers-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-color: var(--tertiary-color);
+}
+
+.answers-message{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    background-color: var(--tertiary-color);
+}
+
+.answers-container .title{
+    font-size: 24px;
+}
+
+.answers-container .paragraph{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--secondary-font-color);
 }
