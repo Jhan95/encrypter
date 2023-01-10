@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-container{
+    position: absolute;
+}
+
+.icon-container img{
+    position: relative;
+}
+
+.text-section{
+    width: 70%;
+    margin-top: 70px;
+}
+
+.textarea-container textarea{
+    width: 90%;
+    height: 620px;
+
+}
+
+.answers-container{
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+}
+
+.answers-container img{
+    display: flex;
+}
+
+
+.answers-section{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}

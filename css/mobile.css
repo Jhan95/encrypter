@@ -107,6 +107,11 @@ body{
     background-color: var(--tertiary-color);
 }
 
+.answers-container img{
+    display: none;
+}
+
+
 .answers-message{
     width: 80%;
     height: auto;
