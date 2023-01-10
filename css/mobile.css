@@ -28,11 +28,10 @@ body{
     align-items: center;
 }
 
-
 .textarea-container textarea{
     resize: none;
     width: 90%;
-    height: 240px;
+    height: 320px;
     font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 8px;
@@ -42,7 +41,6 @@ body{
     outline: none;
     border: none;
 }
-
 
 .textarea-container textarea::placeholder{
     font-size: 1.6rem;

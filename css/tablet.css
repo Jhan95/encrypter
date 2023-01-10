@@ -1,0 +1,33 @@
+.textarea-container textarea{
+    height: 700px;
+    font-size: 32px;
+}
+
+.textarea-container textarea::placeholder{
+    font-size: 3.2rem;
+
+}
+
+.alert-text p{
+    width: 90%;
+    position: relative;
+    padding-left: 16px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-container .encrypt,
+.buttons-container .decrypt{
+    width: 50%;
+    margin: 12px;
+}
+
